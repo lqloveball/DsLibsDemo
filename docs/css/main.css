@@ -525,6 +525,18 @@ li {
   top: 0;
 }
 
+#threejsBox {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#threejsBox canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
 #cjsBox {
   position: absolute;
   left: 0;
@@ -532,6 +544,18 @@ li {
 }
 
 #cjsBox canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#pixiBox {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#pixiBox canvas {
   position: absolute;
   left: 0;
   top: 0;
@@ -554,6 +578,7 @@ li {
   width: 640px;
   height: 100%;
   background: #000;
+  display: none;
 }
 
 #siteLoadPanel .progressPanel {

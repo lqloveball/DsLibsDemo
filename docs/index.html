@@ -26,15 +26,17 @@
             -webkit-box-sizing: border-box;
             box-sizing: border-box;
             overflow: hidden;
-            background-color: #ccc;
+            background-color: #000;
         }
 
     </style>
 </head>
 <body>
     <div id="screen">
+        <!-- threejs容器 如果不使用可以删除-->
+         <div id="threejsBox"></div>
         <!-- pixi容器 如果不使用可以删除-->
-        <!-- <div id="pixiBox"></div> -->
+         <div id="pixiBox"></div>
         <!-- cjs容器 如果不使用可以删除-->
         <div id="cjsBox"></div>
         <!-- dom层容器 如果不使用可以删除-->
@@ -53,8 +55,6 @@
         </div>
     </div>
     <!-- 主入口文件 -->
-
     <script src="js/app/main.js"></script>
-
 </body>
 </html>
